@@ -29,6 +29,15 @@
             app:summaryOn="@string/attachment_summary_on"
             app:title="@string/attachment_title" />
 
+        <DropDownPreference
+            app:dependency="sync"
+            app:key="dropdown"
+            app:title="Change counter speed"
+            app:entries="@array/entries"
+            app:useSimpleSummaryProvider="true"
+            app:entryValues="@array/entry_values"/>
+
+
     </PreferenceCategory>
 
 </PreferenceScreen>
